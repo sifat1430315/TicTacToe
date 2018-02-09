@@ -1,3 +1,4 @@
+
   .ticTable td {
   height: 100px;
   width: 100px;
@@ -20,6 +21,10 @@
   border-right: 1px solid black;
 }
 
+.ticTable tr td#2.boederBottom.borderRight{
+border-right-color: white;
+}
+
 .container {
   margin: 20px;
   display: inline-block;
@@ -35,6 +40,7 @@ hr{
   margin: 20px 60px;
   display: inline-block;
   float: left;
+  user-select: none;
 }
 
 .controls {
